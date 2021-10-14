@@ -4,7 +4,7 @@
 
 | Name | Description |
 | --- | --- |
-| [charts/airflow](https://github.com/airflow-helm/charts/tree/main/charts/airflow) | Airflow Helm Chart (User Community) - used to deploy Apache Airflow on Kubernetes
+| [charts/airflow](https://github.com/nbtri/airflow-helm-chart/tree/main/charts/airflow) | Airflow Helm Chart (User Community) - used to deploy Apache Airflow on Kubernetes
 
 ## Docker Images
 
@@ -15,6 +15,6 @@
 ## Helm Repo Usage
 
 ```sh
-helm repo add airflow-stable https://airflow-helm.github.io/charts
+helm repo add airflow-stable https://nbtri.github.io/airflow-helm-chart/
 helm repo update
 ```
