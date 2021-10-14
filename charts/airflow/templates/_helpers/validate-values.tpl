@@ -11,7 +11,7 @@
 {{- end }}
 
 {{/* Checks for `airflow.image` */}}
-{{- if eq .Values.airflow.image.repository "apache/airflow" }}
+{{- if eq .Values.airflow.image.repository "nbtri/custom-airflow" }}
   {{- if hasPrefix "1." .Values.airflow.image.tag }}
     {{- if not .Values.airflow.legacyCommands }}
     {{ required "When using airflow 1.10.X, `airflow.legacyCommands` must be `true`!" nil }}
